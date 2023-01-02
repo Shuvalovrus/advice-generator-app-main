@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/59483799/210214172-0904750b-6527-47e3-a1df-bc249f482c17.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Shuvalovrus/advice-generator-app-main](https://github.com/Shuvalovrus/advice-generator-app-main)
+- Live Site URL: [https://shuvalovrus.github.io/advice-generator-app-main/](https://shuvalovrus.github.io/advice-generator-app-main/)
 
 ### Built with
 
@@ -69,7 +69,7 @@ Adaptive layout
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Konstantin](https://github.com/Shuvalovrus)
 - Frontend Mentor - [@shuvalovrus](https://www.frontendmentor.io/profile/shuvalovrus)
 
 ## Acknowledgments
