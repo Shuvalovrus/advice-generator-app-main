@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100%;
+  padding: 0 15px;
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+.advice {
+  display: flex;
+  height: 331px;
+  position: relative;
+  flex: 0 1 540px;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 17px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.advice__number {
+  font-weight: 500;
+  font-size: 12px;
+  margin: 49px 0 20px 0;
+  color: hsl(150deg, 100%, 66%);
+  letter-spacing: 0.4em;
+}
+.advice__text {
+  text-align: center;
+  font-size: 28px;
+  color: hsl(193deg, 38%, 86%);
+}
+@media screen and (max-width: 375px) {
+  .advice__text {
+    font-size: 18px;
+  }
+}
+.advice__separator {
+  position: absolute;
+  bottom: 70px;
+  width: 82.5%;
+  height: 16px;
+  background: no-repeat center url("../images/pattern-divider-desktop.svg");
+}
+.advice__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  outline: none;
+  border-radius: 50%;
+  border: 0;
+  background-color: hsl(150deg, 100%, 66%);
+  bottom: -32.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.advice__button:hover {
+  box-shadow: 0 0 15px hsl(193deg, 38%, 86%);
+}
+
+.button_disable {
+  font-weight: 800;
+  font-size: 20px;
+  color: hsl(217deg, 19%, 24%);
+  opacity: 0.8;
+}
+.button_disable:hover {
+  box-shadow: none;
+}
+
+/*# sourceMappingURL=style.css.map */

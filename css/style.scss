@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+$lightCyan:hsl(193, 38%, 86%);
+$neonGreen:hsl(150, 100%, 66%);
+$grayishBlue:hsl(217, 19%, 38%);
+$darkGrayishBlue:hsl(217, 19%, 24%);
+$darkBlue:hsl(218, 23%, 16%);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    font-family: 'Manrope', sans-serif;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 0 15px;
+    background-color: $darkBlue;
+}
+.advice {
+    display: flex;
+    height: 331px;
+    position: relative;
+    flex: 0 1 540px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    background-color: $darkGrayishBlue;
+    border-radius: 17px;
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.3);
+    &__number {
+        font-weight: 500;
+        font-size: 12px;
+        margin: 49px 0 20px 0;
+        color: $neonGreen;
+        letter-spacing: .4em;
+    }
+    &__text {
+        text-align: center;
+        font-size: 28px;
+        color: $lightCyan;
+        @media screen and (max-width: 375px) {
+            font-size: 18px;
+          }
+    }
+    &__separator {
+        position: absolute;
+        bottom: 70px;
+        width: 82.5%;
+        height: 16px;
+        background: no-repeat center url('../images/pattern-divider-desktop.svg');
+    }
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        outline: none;
+        border-radius: 50%;
+        border: 0;
+        background-color: $neonGreen;
+        bottom: -32.5px;  
+        cursor: pointer;
+        transition: all .2s ease;
+        &:hover {
+            box-shadow:0 0 15px $lightCyan;
+        }
+    }
+}
+
+.button_disable {
+    font-weight: 800;
+    font-size: 20px;
+    color: $darkGrayishBlue;
+    opacity: .8;
+    &:hover {
+      box-shadow: none;
+    }  
+}
